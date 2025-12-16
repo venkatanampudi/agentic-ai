@@ -1,0 +1,16 @@
+2025-12-16 18:25:11-ArithmeticApplication-DEBUG-False
+2025-12-16 18:27:31-ArithmeticApplication-DEBUG-Adding 10 + 15 == 25
+2025-12-16 18:27:31-ArithmeticApplication-DEBUG-Subtracting 10 - 15 == -5
+2025-12-16 18:27:31-ArithmeticApplication-DEBUG-Multiplying 10 * 15 == 150
+2025-12-16 18:27:31-ArithmeticApplication-DEBUG-Dividing 10 / 20 == 0.5
+2025-12-16 18:27:42-ArithmeticApplication-DEBUG-Adding 10 + 15 == 25
+2025-12-16 18:27:42-ArithmeticApplication-DEBUG-Subtracting 10 - 15 == -5
+2025-12-16 18:27:42-ArithmeticApplication-DEBUG-Multiplying 10 * 15 == 150
+2025-12-16 18:27:42-ArithmeticApplication-ERROR-Division by Zero error raised
+2025-12-16 18:29:18-ipykernel.comm-ERROR-No such comm target registered: jupyter.widget.control
+2025-12-16 18:29:18-Comm-WARNING-No such comm: f8e42e25-f861-4147-ad87-1ad3a0f6b7b5
+2025-12-16 18:29:18-Comm-DEBUG-Current comms: []
+2025-12-16 18:30:01-ArithmeticApplication-DEBUG-Adding 10 + 15 == 25
+2025-12-16 18:30:01-ArithmeticApplication-DEBUG-Subtracting 10 - 15 == -5
+2025-12-16 18:30:01-ArithmeticApplication-DEBUG-Multiplying 10 * 15 == 150
+2025-12-16 18:30:01-ArithmeticApplication-ERROR-Division by Zero error raised
