@@ -1,0 +1,54 @@
+The five-pillar framework shown in Figure 1.5 emerged directly from the systems
+challenges that distinguish ML from traditional software. Each pillar
+addresses specific challenge categories while recognizing their interdependencies:
+Data Engineering (Chapter 6) addresses the data-related challenges we identified:
+quality assurance, scale management, drift detection, and distribution
+shift. This pillar encompasses building robust data pipelines that ensure quality,
+handle massive scale, maintain privacy, and provide the infrastructure upon
+which all ML systems depend. For systems like Waymo, this means managing
+terabytes of sensor data per vehicle, validating data quality in real-time,
+detecting distribution shifts across different cities and weather conditions, and
+maintaining data lineage for debugging and compliance. The techniques covered
+include data versioning, quality monitoring, drift detection algorithms,
+and privacy-preserving data processing.
+Training Systems (Chapter 8) tackles the model-related challenges around
+complexity and scale. This pillar covers developing training systems that can
+manage large datasets and complex models while optimizing computational
+resource utilization across distributed environments. Modern foundation models
+require coordinating thousands of GPUs, implementing parallelization
+strategies, managing training failures and restarts, and balancing training costs
+against model quality. The chapter explores distributed training architectures,
+optimization algorithms, hyperparameter tuning at scale, and the frameworks
+that make large-scale training practical.
+Deployment Infrastructure (Chapter 13, Chapter 14) addresses systemrelated
+challenges around the training-serving divide and operational complexity.
+This pillar encompasses building reliable deployment infrastructure that
+can serve models at scale, handle failures gracefully, and adapt to evolving requirements
+in production environments. Deployment spans the full spectrum
+from cloud services handling millions of requests per second to edge devices
+1.10. Defining AI Engineering 36
+operating under severe latency and power constraints. The techniques include
+model serving architectures, edge deployment optimization, A/B testing frameworks,
+and staged rollout strategies that minimize risk while enabling rapid
+iteration.
+Operations and Monitoring (Chapter 13, Chapter 12) directly addresses
+the silent performance degradation patterns we identified as distinctive to ML
+systems. This pillar covers creating monitoring and maintenance systems that
+ensure continued performance, enable early issue detection, and support safe
+system updates in production. Unlike traditional software monitoring focused
+on infrastructure metrics, ML operations requires the four-dimensional monitoring
+we discussed: infrastructure health, model performance, data quality,
+and business impact. The chapter explores metrics design, alerting strategies,
+incident response procedures, debugging techniques for production ML systems,
+and continuous evaluation approaches that catch degradation before it
+impacts users.
+Ethics and Governance (Chapter 17, Chapter 15, Chapter 18) addresses the
+ethical and societal challenges around fairness, transparency, privacy, and safety.
+This pillar implements responsible AI practices throughout the system lifecycle
+rather than treating ethics as an afterthought. For safety-critical systems like
+autonomous vehicles, this includes formal verification methods, scenario-based
+testing, bias detection and mitigation, privacy-preserving learning techniques,
+and explainability approaches that support debugging and certification. The
+chapters cover both technical methods (differential privacy, fairness metrics,
+interpretability techniques) and organizational practices (ethics review boards,
+incident response protocols, stakeholder engagement).
