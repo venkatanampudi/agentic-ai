@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data & Large Files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.h5
+*.pkl
+*.db
+*.sqlite3
+*.parquet
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build/Distribution
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.swp
+
+# AWS credentials (never commit)
+.aws/
+
+# .ssh keys 
+.ssh
+.private
+.pub
