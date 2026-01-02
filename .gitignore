@@ -57,3 +57,4 @@ dist/
 .ssh
 .private
 .pub
+.toml
